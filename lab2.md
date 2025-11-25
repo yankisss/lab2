@@ -313,7 +313,7 @@ flowchart TD
     I -->|Нет| K[ ]
     
     J --> K
-    K --> L{A[i] > 0?}
+    K --> L{Ai > 0?}
     L -->|Да| M[pos = pos + 1]
     L -->|Нет| N{Ai < 0?}
     N -->|Да| O[neg = neg + 1]
