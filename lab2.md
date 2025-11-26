@@ -167,7 +167,7 @@ public class Main {
 
         // вывод в строку
         for (int i = 0; i < n; i++) {
-            out.print(A[i] + " ");
+            out.print(A[i] + ", ");
         }
     }
 }
